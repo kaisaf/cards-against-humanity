@@ -1,0 +1,65 @@
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+span {
+  color: red;
+}
+
+.black_card {
+  width: 190px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+.white_card {
+  border-style: solid;
+  border-color: black;
+  width: 190px;
+  height: 200px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.white_cards {
+  margin-left: -40px;
+}
+
+.black_cards {
+  margin-left: -40px;
+}
+
+.black_cards li {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.white_cards li {
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.highlight_border {
+  border-style: solid;
+  border-color: red;
+}
+
+#result {
+  color: grey;
+  font-size: 24px;
+  height: 200px;
+  width: 700px;
+}

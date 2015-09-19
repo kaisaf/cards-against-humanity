@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  {% load staticfiles %}
+  <head>
+    <title>Cards Against Humanity</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel=stylesheet href="{% static "game/main.css"%}">
+    <script src="{%static "game/index.js"%}"></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <h1>Cards Against Humanity</h1>
+    </div>
+
+    <div class="container">
+        <button type="submit" id="black_button" class="btn btn-default">Display BLACK card</button>
+        <button type="submit" id="white_button" class="btn btn-default">Display WHITE cards</button>
+    </div>
+
+    <div class="container" id="black_text">
+      <h3> Black card says: </h3>
+      <ul class="black_cards"</ul>
+    </div>
+
+    <div class="container" id="white_text">
+      <h3> White cards say: </h3>
+      <ul class="white_cards"</ul>
+    </div>
+  </body>
+</html>
